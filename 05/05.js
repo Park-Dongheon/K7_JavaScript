@@ -65,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
         else if(input.value == n) {
             updownImg.setAttribute('src', `./img/good.png`);
             input.focus();
-            input.value = null;
         }
         
     });

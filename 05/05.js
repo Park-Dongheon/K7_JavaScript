@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // 입력값 체크
         if(input.value == "") {
-            alert('값을 입력하세요.');
+            alert('값을 입력하세요');
             input.focus();
             input.value = null;
             return;
